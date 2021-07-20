@@ -1,0 +1,17 @@
+/* inizio header */
+header {
+    background-color: #2C3E50;
+    color: #ffffff;
+}
+
+.nav-header li{
+    list-style: none;
+    display: inline-block;
+}
+/* fine header */
+
+/* inizio hero */
+.hero {
+    background-color: #1abc9c;
+}
+/* fine hero */
