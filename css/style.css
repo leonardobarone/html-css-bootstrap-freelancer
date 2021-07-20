@@ -1,17 +1,45 @@
+/* inizio comune */
+a {
+    text-decoration: none;
+}
+/* fine comune */
+
 /* inizio header */
 header {
     background-color: #2C3E50;
-    color: #ffffff;
 }
 
 .nav-header li{
     list-style: none;
     display: inline-block;
 }
+
+.nav-header li a,
+.text-header {
+    color: #ffffff;
+}
 /* fine header */
 
 /* inizio hero */
 .hero {
     background-color: #1abc9c;
+    color: #ffffff;
 }
 /* fine hero */
+
+/* inizio portfolio */
+.box {
+    border: 1px solid black;
+}
+/* fine portfolio */
+
+/* inizio about */
+.about {
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: turquoise;
+}
+/* fine about */
