@@ -53,10 +53,27 @@ header {
     background-color: #1abc9c;
     color: #ffffff;
 }
-/* fine contact */
 
 
 textarea, 
 input {
-    width: 100%;
+    width: 95%;
+    margin: auto;
 }
+/* fine contact */
+
+/* inizio footer */
+footer .superiore {
+    background-color: #3a546d;
+    color: #ffffff;
+}
+
+.superiore a {
+    color: #1abc9c;
+}
+
+footer .inferiore {
+    background-color: #2C3E50;
+    color: #ffffff;
+}
+/* fine footer */
