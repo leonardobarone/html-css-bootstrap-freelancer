@@ -1,4 +1,8 @@
 /* inizio comune */
+body {
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
 }
@@ -15,7 +19,7 @@ header {
 }
 
 .nav-header li a,
-.text-header {
+.text-header h6 {
     color: #ffffff;
 }
 /* fine header */
@@ -43,3 +47,16 @@ header {
     background-color: turquoise;
 }
 /* fine about */
+
+/* inizio contact */
+.contact .btn {
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+/* fine contact */
+
+
+textarea, 
+input {
+    width: 100%;
+}
