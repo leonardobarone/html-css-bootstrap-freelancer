@@ -34,6 +34,25 @@ header  a {
 header a:hover {
     color: #1abc9c;
 }
+.pos-rel {
+    position: relative;
+}
+.line::before {
+    content: "_____";
+    display: inline;
+    border-bottom: 3px solid;
+    position: absolute;
+    bottom: 50%;
+    right: 150%;
+}
+.line::after {
+    content: "_____";
+    display: inline;
+    border-bottom: 3px solid;
+    position: absolute;
+    bottom: 50%;
+    left: 150%;
+}
 .btn-check:focus+.btn, .btn:focus {
     box-shadow: none;
 }
@@ -46,6 +65,7 @@ header a:hover {
 }
 header {
     position: fixed;
+    z-index: 10;
     top: 0px;
     width: 100%;
     color: #ffffff;
@@ -65,6 +85,25 @@ header {
     border-radius: 10px;
     overflow: hidden;
     margin: 10px 0px;
+    position: relative;
+}
+.overlay {
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #1abc9c;;
+    color: white;
+    font-size: 64px;
+}
+
+.portfolio-item:hover .overlay {
+    visibility: visible;
 }
 /* ABOUT */
 #about {
@@ -89,10 +128,33 @@ footer {
 .footer-bottom {
     padding: 25px 0px;
 }
-footer a {
+footer .start_bootstrap {
     color: #1abc9c;
     text-decoration: underline;
+    transition: 1s;
 }
 footer [class*="col-12"] {
     margin: 10px 0px;
+}
+
+footer .social
+{
+    color: white;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    line-height: 38px;
+    border-radius: 50%;
+    margin: 2px;
+    transition: 1s;
+}
+
+footer .social:hover {
+    color: #1abc9c;
+    border: 1px solid #1abc9c;
+}
+
+footer .start_bootstrap:hover {
+    color: orange;
 }
