@@ -4,234 +4,170 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- inizio favicon -->
+        <!-- FAVICON -->
         <link rel="shortcut icon" href="img/bootstrap.png" type="image/x-icon">
-        <!-- fine favicon -->
-        
-        <!-- inizio font-awesome -->
+        <!-- FONT-AWESOME -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- fine font-awesome -->
-        
-        <!-- inizio bootstrap css -->
+        <!-- BOOTSTRAP CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <!-- fine bootstrap css -->
-        
-        <!-- inizio style -->
+        <!-- STYLE -->
         <link rel="stylesheet" href="css/style.css">
-        <!-- fine style -->
-        
         <title>Bootstrap</title>
     </head>
     <body>
-        
-        <!-- inizio header -->
-        <header>
+        <!-- HEADER -->
+        <header class="bg_primary">
             <div class="container">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-6 col-md-3">
-                        <a class="text-header" href="#">
-                            <h6>START BOOTSTRAP</h6>
-                        </a>
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        START BOOTSTRAP
                     </div>
-                    <div class="col-6 col-md-9 text-end">
-                        
-                            <ul class="nav-header">
-                                <li>
-                                    <a href="#portfolio">PORTFOLIO</a>
-                                </li>
-                                <li>
-                                    <a href="#about">ABOUT</a>
-                                </li>
-                                <li>
-                                    <a href="#contact">CONTACT</a>
-                                </li>
-                            </ul>
-                        
+                    <div class="col-6 text-end">
+                        MENU
                     </div>
                 </div>
             </div>
         </header>
-        <!-- fine header -->
-        
-
-        <!-- inizio hero -->
-        <div class="hero">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-12">
-                        <img class="img-fluid" src="https://picsum.photos/200/200" alt="segnaposto">
-                        <h1>START BOOTSTRAP</h1>
-                        <i class="fas fa-star fa-2x"></i>
-                        <h6>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h6>
+        <!-- MAIN -->
+        <main>
+            <!-- HERO -->
+            <section id="hero" class="bg_secondary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img src="img/avatar.svg" alt="avatar">
+                            <h1>START BOOTSTRAP</h1>
+                            <i class="fas fa-star fa-2x"></i>
+                            <p>GRAPHIC ARTIST - WEB DESIGNER - ILLOSTRATOR</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- fine hero -->
-        
-
-        <!-- inizio main -->
-        <main>
-            
-            <!-- inizio portfolio -->
-            <section id="portfolio" class="portfolio">
+            </section>
+            <!-- PORTFOLIO -->
+            <section id="portfolio">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center">
                             <h2>PORTFOLIO</h2>
                             <i class="fas fa-star fa-2x"></i>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-md-6 col-lg-4 text-center">
-                            <div class="box">
-                                <img class="img-fluid" src="https://picsum.photos/300/200" alt="segnaposto">
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="portfolio-item">
+                                <img class="img-fluid" src="img/cabin.png" alt="cabin">
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 text-center">
-                            <div class="box">
-                                <img class="img-fluid" src="https://picsum.photos/300/200" alt="segnaposto">
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="portfolio-item">
+                                <img class="img-fluid" src="img/cake.png" alt="cake">
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 text-center">
-                            <div class="box">
-                                <img class="img-fluid" src="https://picsum.photos/300/200" alt="segnaposto">
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="portfolio-item">
+                                <img class="img-fluid" src="img/circus.png" alt="circus">
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 text-center">
-                            <div class="box">
-                                <img class="img-fluid" src="https://picsum.photos/300/200" alt="segnaposto">
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="portfolio-item">
+                                <img class="img-fluid" src="img/game.png" alt="game">
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 text-center">
-                            <div class="box">
-                                <img class="img-fluid" src="https://picsum.photos/300/200" alt="segnaposto">
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="portfolio-item">
+                                <img class="img-fluid" src="img/safe.png" alt="safe">
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 text-center">
-                            <div class="box">
-                                <img class="img-fluid" src="https://picsum.photos/300/200" alt="segnaposto">
+                        <div class="col-12 col-sm-6 col-lg-4">
+                            <div class="portfolio-item">
+                                <img class="img-fluid" src="img/submarine.png" alt="submarine">
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- fine portfolio -->
-
-            <!-- inizio about -->
-            <section id="about" class="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <h2>ABOUT</h2>
-                            <i class="fas fa-star fa-2x"></i>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, fuga veritatis natus quidem dolores dignissimos dolor, amet ducimus nesciunt quae quia reprehenderit ratione ipsum id exercitationem. Ullam maxime reprehenderit laudantium?
-                        </div>
-                        <div class="col-12 col-md-6">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, fuga veritatis natus quidem dolores dignissimos dolor, amet ducimus nesciunt quae quia reprehenderit ratione ipsum id exercitationem. Ullam maxime reprehenderit laudantium?
-                        </div>
-                    </div>
-                    <div class="col-12 text-center">
-                        <button class="btn btn-outline-light text-white">
-                            <i class="fas fa-download"></i>
-                            Download
-                        </button>
-                    </div>
-                </div>
-            </section>
-            <!-- fine about -->
-
-            <!-- inizio contact  -->
-            <section id="contact" class="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <h2>CONTACT ME</h2>
-                            <i class="fas fa-star fa-2x"></i>
-                        </div>
-                        <div class="col-8 offset-2">
-                            <form action="#">
-                                <label for="">Name</label>
-                                <div class="col-12">
-                                    <input type="text">
-                                </div>
-                                <label for="">Email Address</label>
-                                <div class="col-12">
-                                    <input type="email">
-                                </div>
-                                <label for="">Phone Number</label>
-                                <div class="col-12">
-                                    <input type="number">
-                                </div>
-                                <label for="">Message</label>
-                                <div class="col-12">
-                                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn" type="submit">Send</button>
-                                </div>
-                            </form>
+            <!-- ABOUT -->
+            <section id="about" class="bg_secondary">
+                <div class="container_custom">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <h2>ABOUT</h2>
+                                <i class="fas fa-star fa-2x"></i>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. A sunt ab nostrum cumque perferendis ullam doloribus quos dolor assumenda eius, quasi quis odio ducimus atque itaque corrupti amet quas omnis.
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perspiciatis nihil minus amet a dolores dolorum placeat possimus sit, commodi neque ipsam? Vitae nisi, iusto ipsum atque amet qui fugiat?
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-outline-light">
+                                    <i class="fas fa-download"></i>
+                                    Download
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- fine contact -->
-
+            <!-- CONTACT -->
+            <section id="contact">
+                <div class="container_custom">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <h2>CONTACT ME</h2>
+                                <i class="fas fa-star fa-2x"></i>
+                            </div>
+                            <div class="col-12">
+                                <form action="#">
+                                    <div class="col-12">
+                                        <label for="name">Name</label>
+                                        <input class="input_style" type="text" id="name">
+                                        <label for="email">Email Address</label>
+                                        <input class="input_style" type="email" id="email">
+                                        <label for="tel">Phone Number</label>
+                                        <input class="input_style" type="tel" id="tel">
+                                        <label for="message">Message</label>
+                                        <textarea class="input_style" name="message" id="message" cols="30" rows="5"></textarea>
+                                        <button class="btn text-light bg_secondary" type="submit">Send</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
-        <!-- fine main -->
-
-
-        <!-- inizio footer -->
+        <!-- FOOTER -->
         <footer>
-
-            <!-- inizio superiore -->
-            <div class="superiore">
+            <div class="footer-top bg_primary_300">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-md-4 text-center">
+                    <div class="row text-center">
+                        <div class="col-12 col-sm-4">
                             <h6>LOCATION</h6>
                             <p>2215 John Daniel Drive Clark, MO 54243</p>
                         </div>
-                        <div class="col-12 col-md-4 text-center">
+                        <div class="col-12 col-sm-4">
                             <h6>AROUND THE WEB</h6>
                             <i class="fab fa-facebook-f"></i>
                             <i class="fab fa-google-plus-g"></i>
                             <i class="fab fa-twitter"></i>
-                            <p>2215 John Daniel Drive Clark, MO 54243</p>
+                            <i class="fab fa-linkedin-in"></i>
                         </div>
-                        <div class="col-12 col-md-4 text-center">
+                        <div class="col-12 col-sm-4">
                             <h6>ABOUT FREELANCER</h6>
                             <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- fine superiore -->
-
-            <!-- inizio inferiore -->
-            <div class="inferiore">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <p>Copyright 
-                                <i class="far fa-copyright"></i>
-                                Your Website 2019</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="footer-bottom bg_primary text-center">
+                Copyright 
+                <i class="far fa-copyright"></i>
+                Your Website 2019
             </div>
-            <!-- inizio inferiore -->
-
         </footer>
-        <!-- fine footer -->
-
-
-        
-        <!-- inizio bootstrap js -->
+        <!-- BOOTSTRAP JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <!-- fine bootstrap js -->
     </body>
 </html>

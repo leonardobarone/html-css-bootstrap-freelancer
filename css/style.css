@@ -1,79 +1,78 @@
-/* inizio comune */
+/* COMUNE */
 body {
     scroll-behavior: smooth;
 }
-
 a {
     text-decoration: none;
 }
-/* fine comune */
-
-/* inizio header */
-header {
+.bg_primary {
     background-color: #2C3E50;
 }
-
-.nav-header li{
-    list-style: none;
-    display: inline-block;
-}
-
-.nav-header li a,
-.text-header h6 {
-    color: #ffffff;
-}
-/* fine header */
-
-/* inizio hero */
-.hero {
-    background-color: #1abc9c;
-    color: #ffffff;
-}
-/* fine hero */
-
-/* inizio portfolio */
-.box {
-    border: 1px solid black;
-}
-/* fine portfolio */
-
-/* inizio about */
-.about {
-    background-color: #1abc9c;
-    color: #ffffff;
-}
-
-.btn:hover {
-    background-color: turquoise;
-}
-/* fine about */
-
-/* inizio contact */
-.contact .btn {
-    background-color: #1abc9c;
-    color: #ffffff;
-}
-
-
-textarea, 
-input {
-    width: 95%;
-    margin: auto;
-}
-/* fine contact */
-
-/* inizio footer */
-footer .superiore {
+.bg_primary_300 {
     background-color: #3a546d;
+}
+.bg_secondary {
+    background-color: #1abc9c;
+}
+section,
+.footer-top {
+    padding: 50px 0px;
+}
+.container_custom {
+    max-width: 800px;
+    width: 95%;
+    margin: 0 auto;
+}
+/* HEADER */
+header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    color: #ffffff;
+    height: 50px;
+    line-height: 50px;
+}
+/* HERO */
+#hero {
+    margin-top: 50px;
     color: #ffffff;
 }
-
-.superiore a {
+#hero img {
+    width: 200px;
+}
+/* PORTFOLIO */
+.portfolio-item {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px 0px;
+}
+/* ABOUT */
+#about {
+    color: #ffffff;
+}
+#about [class*="col-12"] {
+    margin: 10px 0px;
+}
+/* CONTACT */
+.input_style {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+#contact form {
+    padding: 20px;
+}
+/* FOOTER */
+footer {
+    color: #ffffff;
+}
+.footer-bottom {
+    padding: 25px 0px;
+}
+footer a {
     color: #1abc9c;
+    text-decoration: underline;
 }
-
-footer .inferiore {
-    background-color: #2C3E50;
-    color: #ffffff;
+footer [class*="col-12"] {
+    margin: 10px 0px;
 }
-/* fine footer */
