@@ -24,6 +24,26 @@ section,
     margin: 0 auto;
 }
 /* HEADER */
+header .nav li,
+header .nav ul {
+    display: inline-block;
+}
+header  a {
+    color: white;
+}
+header a:hover {
+    color: #1abc9c;
+}
+.btn-check:focus+.btn, .btn:focus {
+    box-shadow: none;
+}
+.dropdown i {
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    line-height: 10px;
+    border-radius: 5px;
+}
 header {
     position: fixed;
     top: 0px;
