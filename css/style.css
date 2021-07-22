@@ -34,25 +34,30 @@ header  a {
 header a:hover {
     color: #1abc9c;
 }
-.pos-rel {
-    position: relative;
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0px;
 }
+
+.line i {
+    margin: 0px 10px;
+}
+
+.line::after, 
 .line::before {
-    content: "_____";
-    display: inline;
-    border-bottom: 3px solid;
-    position: absolute;
-    bottom: 50%;
-    right: 150%;
+    content: "";
+    height: 3px;
+    width: 100px;
+    background-color: white;
 }
-.line::after {
-    content: "_____";
-    display: inline;
-    border-bottom: 3px solid;
-    position: absolute;
-    bottom: 50%;
-    left: 150%;
+
+.line.bg-line::after, 
+.line.bg-line::before {
+    background-color: black;
 }
+
 .btn-check:focus+.btn, .btn:focus {
     box-shadow: none;
 }
